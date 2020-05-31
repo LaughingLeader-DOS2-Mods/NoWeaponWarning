@@ -8,12 +8,14 @@ LLNOWEAPON_InitWorkaround()
 THEN
 NOT DB_StatusReaction("UNSHEATHED","WeaponsDrawn");
 
+/*
 IF
 CharacterOnCrimeSensibleActionNotification(_NPC,_,_CrimeID,_,_,_Criminal,_Criminal2,_Criminal3,_Criminal4,_)
 AND
 CrimeGetType(_CrimeID,"WeaponsDrawn")
 THEN
 CharacterDisableCrime(_NPC,"WeaponsDrawn");
+*/
 EXITSECTION
 
 ENDEXITSECTION
