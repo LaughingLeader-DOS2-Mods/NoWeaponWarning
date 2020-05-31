@@ -9,7 +9,7 @@
                 <node id="ModuleInfo">
                     <attribute id="Author" value="LaughingLeader" type="30" />
                     <attribute id="CharacterCreationLevelName" value="" type="22" />
-                    <attribute id="Description" value="Disables NPCs warnings about having your weapons drawn when you go to talk to them." type="30" />
+                    <attribute id="Description" value="Disables NPC warnings about having your weapons drawn when you go to talk to them." type="30" />
                     <attribute id="DescriptionName" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
                     <attribute id="DisplayName" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
                     <attribute id="Folder" value="NoWeaponWarning_2f8d6338-5235-4237-9fa2-bc0411aec9c0" type="30" />
