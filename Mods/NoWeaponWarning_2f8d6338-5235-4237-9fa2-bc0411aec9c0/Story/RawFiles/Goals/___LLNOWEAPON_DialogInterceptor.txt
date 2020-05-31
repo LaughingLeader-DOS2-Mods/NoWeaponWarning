@@ -1,0 +1,31 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+KBSECTION
+
+PROC
+SelectAndStartDialog((GUIDSTRING)_Player,(GUIDSTRING)_NPC)
+AND
+NOT DB_BlockThreatenedDialog((CHARACTERGUID)_NPC)
+THEN
+DB_BlockThreatenedDialog((CHARACTERGUID)_NPC);
+LLNOWEAPON_CheckForPersistancy(_NPC);
+
+PROC
+LLNOWEAPON_CheckForPersistancy((CHARACTERGUID)_NPC)
+AND
+ObjectIsGlobal(_NPC, 0)
+THEN
+DB_LLNOWEAPON_ClearBlockThreatenedDialog(_NPC);
+
+// Clear DB_BlockThreatenedDialog from non-global NPCs when this region ends.
+IF
+RegionEnded(_)
+AND
+DB_LLNOWEAPON_ClearBlockThreatenedDialog(_NPC)
+THEN
+NOT DB_LLNOWEAPON_ClearBlockThreatenedDialog(_NPC);
+NOT DB_BlockThreatenedDialog(_NPC);
+
+EXITSECTION
+ENDEXITSECTION

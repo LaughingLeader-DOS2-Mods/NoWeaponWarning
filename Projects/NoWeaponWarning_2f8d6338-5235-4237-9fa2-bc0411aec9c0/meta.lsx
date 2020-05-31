@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="6" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="2f8d6338-5235-4237-9fa2-bc0411aec9c0" type="23" />
+            <attribute id="Name" value="NoWeaponWarning" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="9844fe08-2b9c-452a-9a92-ce6431c9e21f" type="23" />
+        </node>
+    </region>
+</save>

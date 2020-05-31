@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="d3edab64-6a76-4232-b009-2b2fe183e5bd">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WeaponsDrawn" />
+        <field name="TensionWeight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DetectionRange" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="AudibleRange" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Audible" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Continuous" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="ContinuousDelayTimer" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="CreatesCrimescene" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MaxInvestigators" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
